@@ -167,13 +167,6 @@ $EndComp
 Wire Wire Line
 	7000 2500 7000 3050
 Wire Wire Line
-	7000 3350 7000 3500
-Connection ~ 7000 3500
-Wire Wire Line
-	7000 3500 7200 3500
-Wire Wire Line
-	7000 3500 7000 3650
-Wire Wire Line
 	2250 2500 2650 2500
 Wire Wire Line
 	2650 3000 2650 3100
@@ -455,9 +448,6 @@ Wire Wire Line
 	5750 2500 6300 2500
 Connection ~ 5750 2500
 Wire Wire Line
-	5750 3100 6300 3100
-Connection ~ 6300 3100
-Wire Wire Line
 	6300 2500 7000 2500
 Connection ~ 6300 2500
 Connection ~ 7000 2500
@@ -672,5 +662,23 @@ F 2 "Footprints:100ZLJ220M12.5X25" H 4500 2500 50  0001 C CNN
 F 3 "~" H 4500 2500 50  0001 C CNN
 	1    4500 2500
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 3350 7000 3500
+Connection ~ 7000 3500
+Wire Wire Line
+	7000 3500 7000 3650
+Wire Wire Line
+	7200 3500 7000 3500
+$Comp
+L power:GND #PWR?
+U 1 1 61BCAFA8
+P 5750 3100
+F 0 "#PWR?" H 5750 2850 50  0001 C CNN
+F 1 "GND" H 5755 2927 50  0000 C CNN
+F 2 "" H 5750 3100 50  0001 C CNN
+F 3 "" H 5750 3100 50  0001 C CNN
+	1    5750 3100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
