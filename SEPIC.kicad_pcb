@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 6)
     (tracks 0)
     (zones 0)
     (modules 23)
@@ -36,7 +36,7 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user)
+    (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
 
@@ -405,7 +405,7 @@
     (fp_text reference J3 (at 2.5 -2.2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Screw_Terminal_01x02 (at 2.55 5.85 90) (layer F.SilkS)
+    (fp_text value Screw_Terminal_01x02 (at 5.588 5.588 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user * (at 0 0 90) (layer F.Fab)
@@ -438,13 +438,13 @@
       (net 4 /VOUT))
   )
 
-  (module Footprints:691137710002 (layer F.Cu) (tedit 61BAE1EB) (tstamp 61BB6DD8)
+  (module Footprints:691137710002 (layer F.Cu) (tedit 61BAE1EB) (tstamp 61BC2965)
     (at 201.676 104.14 90)
     (path /61C61ECA)
     (fp_text reference J7 (at 2.5 -2.2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Screw_Terminal_01x02 (at 2.55 5.85 90) (layer F.SilkS)
+    (fp_text value Screw_Terminal_01x02 (at 5.334 5.588 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.6308 4.221599) (end 7.6308 4.221599) (layer F.SilkS) (width 0.12))
@@ -965,5 +965,12 @@
     (pad 2 thru_hole circle (at 2.5 0 90) (size 1.15 1.15) (drill 0.8) (layers *.Cu *.Mask)
       (net 11 "Net-(C3-Pad2)"))
   )
+
+  (gr_line (start 212.852 111.506) (end 210.058 111.506) (layer Edge.Cuts) (width 0.05) (tstamp 61BC299B))
+  (gr_line (start 212.852 111.252) (end 212.852 111.506) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 212.852 44.45) (end 212.852 111.252) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 110.998 44.45) (end 212.852 44.45) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 110.998 111.506) (end 110.998 44.45) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 210.058 111.506) (end 110.998 111.506) (layer Edge.Cuts) (width 0.05))
 
 )
