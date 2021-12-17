@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name XL6009)(type Legacy)(uri ${KIPRJMOD}/XL6009.lib)(options "")(descr ""))
+  (lib (name AP2205)(type Legacy)(uri ${KIPRJMOD}/AP2205.lib)(options "")(descr ""))
+  (lib (name MCP48FVB21)(type Legacy)(uri ${KIPRJMOD}/MCP48FVB21.lib)(options "")(descr ""))
+)
