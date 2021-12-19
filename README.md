@@ -3,6 +3,8 @@
 # SPI-SEPIC
 SPI controlled SEPIC boost buck converter
 
+> :warning: **README is still under construction**
+
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
