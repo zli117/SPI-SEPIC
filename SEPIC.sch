@@ -10,8 +10,8 @@ Rev "v0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 "https://github.com/zli117"
-Comment4 "License CC BY 4.0"
+Comment3 "https://github.com/zli117/SPI-SEPIC"
+Comment4 "License CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
 $EndDescr
 $Comp
 L power:GND #PWR03
