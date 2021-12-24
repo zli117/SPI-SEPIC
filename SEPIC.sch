@@ -11,7 +11,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 "https://github.com/zli117/SPI-SEPIC"
-Comment4 "License CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+Comment4 "License CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/"
 $EndDescr
 $Comp
 L power:GND #PWR03

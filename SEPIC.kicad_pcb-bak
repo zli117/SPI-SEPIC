@@ -18,7 +18,7 @@
   )
 
   (layers
-    (0 F.Cu mixed)
+    (0 F.Cu mixed hide)
     (31 B.Cu power)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -1146,7 +1146,7 @@
   (gr_text SDO (at 111.887 134.874 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "SPI SEPIC v0.1\nLicense: CC BY 4.0" (at 164.719 134.493) (layer F.SilkS)
+  (gr_text "SPI SEPIC v0.1\nLicense: CC-BY-SA 4.0" (at 164.719 134.493) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 200 70.866) (end 200 137.922) (layer Edge.Cuts) (width 0.05))
