@@ -48,6 +48,10 @@ All 0 | `(val & 0xFF00) >> 8` | `val & 0xFF`
 
 Note that due to part tolerances, you might need to calibrate the mapping with max output voltage (`val = 4095`) and min output voltage (`val = 0`)
 
+## Change Log
+
+ * v0.1: Initial version
+
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
