@@ -44,7 +44,7 @@ Let `val` be the value of the 12-bit DAC. Value in range `[0, 4096)`)
 
 Byte 0 | Byte 1 | Byte 2
 :---:|:-----:|:----:
-All 0 | `(val & 0xFF00) >> 8` | `val & 0xFF`
+All 0 | `val >> 8` | `val & 0xFF`
 
 Note that due to part tolerances, you might need to calibrate the mapping with max output voltage (`val = 4095`) and min output voltage (`val = 0`)
 
